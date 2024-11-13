@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+form,
+.product {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #5A4C3F;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4A3C2F;
+}
+/* Reset and Basic Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fdfdfb;
+    color: #4b2e21;
+}
+
+a {
+    color: #4b2e21;
+    text-decoration: none;
+}
+
+/* Sign-up Container */
+.signup-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 2em;
+    text-align: center;
+}
+
+.signup-container h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5em;
+}
+
+.signup-container p {
+    font-size: 1rem;
+    margin-bottom: 1.5em;
+}
+
+/* Social Media Buttons */
+.social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1em;
+    margin: 0.5em 0;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.google-btn {
+    background-color: #fff;
+    border: 1px solid #d4d4d4;
+    color: #4b2e21;
+}
+
+.google-btn:hover {
+    background-color: #f1f1f1;
+}
+
+.facebook-btn {
+    background-color: #4267B2;
+    color: #fff;
+}
+
+.facebook-btn:hover {
+    background-color: #365899;
+}
+
+/* Email Button */
+.email-btn {
+    display: block;
+    width: 100%;
+    padding: 1em;
+    font-size: 1rem;
+    border: 1px solid #4b2e21;
+    background-color: #fff;
+    color: #4b2e21;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.email-btn:hover {
+    background-color: #f1f1f1;
+}
+
+/* Separator Line */
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 1.5em 0;
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.separator span {
+    padding: 0 1em;
+    color: #4b2e21;
+    font-size: 0.9rem;
+}
