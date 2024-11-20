@@ -4,20 +4,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Craftico - Your Handmade Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div class="container">
-        <h2>Login</h2>
-        <form id="loginForm">
-            <input type="text" id="username" placeholder="Username" required>
-            <input type="password" id="password" placeholder="Password" required>
-            <button type="submit">Login</button>
-        </form>
-        <p id="loginMessage"></p>
-    </div>
+    <header class="navbar">
+        <div class="logo">
+            <img src="Logo.png" alt="Craftico Logo">
+            
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="login.html" class="btn">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Discover Unique Handcrafted Items</h2>
+        <p>Explore, buy, and sell beautiful handmade crafts from around the world.</p>
+        <button onclick="exploreMore()">Explore More</button>
+    </section>
+
+    <section id="categories" class="categories">
+        <h2>Shop by Preference</h2>
+        <div class="category-grid">
+            <div class="category-item">
+                <img src="Jar.webp" alt="Jar">
+                <h3>Jar</h3>
+            </div>
+            <div class="category-item">
+                <img src="LAmp.webp" alt="Lamp">
+                <h3>Lamp</h3>
+            </div>
+            <div class="category-item">
+                <img src="Bowl.webp" alt="Bowl">
+                <h3>Bowl</h3>
+            </div>
+            <div class="category-item">
+                <img src="Cake.webp" alt="Cake">
+                <h3>Cakes</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="featured" class="featured">
+        <h2>Featured Crafts</h2>
+        <div class="featured-grid">
+            <div class="featured-item">
+                <img src="featured1.jpg" alt="Craft Item">
+                <h3>Handwoven Basket</h3>
+                <p>$25.00</p>
+            </div>
+            <div class="featured-item">
+                <img src="featured2.jpg" alt="Craft Item">
+                <h3>Ceramic Vase</h3>
+                <p>$40.00</p>
+            </div>
+            <div class="featured-item">
+                <img src="featured3.jpg" alt="Craft Item">
+                <h3>Knitted Scarf</h3>
+                <p>$30.00</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <p>© 2024 Craftico. All rights reserved.</p>
+        <p>Contact us at <a href="mailto:info@craftico.com">info@craftico.com</a></p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 
